@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+}
+nav{
+    height: 50px;
+    background-color: chocolate;
+    align-items: center;
+    display: flex;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: black;
+    margin: 10px;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav  li{     
+    list-style-type: none;
+    margin: 20px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;  
+}
+nav li a:hover{
+    color: darkgray;
+}
